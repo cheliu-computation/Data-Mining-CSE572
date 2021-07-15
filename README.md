@@ -1,1 +1,3 @@
 # Data-Mining-CSE572
+
+Data analysis of artificial pancreas system: data cleaning of blood glucose and other data of multiple subjects, such as timestamp conversion, missing value interpolation filling; capture data of a specific time period from multiple data tables and perform feature engineering (feature fusion) , Create new features) Train classifiers based on SVM, RF, XGBoost, and GBDT to determine whether the artificial pancreas makes insulin, compare the effects of each classifier, and finally choose XGBoost. In order to prevent misjudgment, Precision was selected instead of Accruacy for model evaluation, and finally reached 94% F1-score. (Use: Numpy, Pandas, Sklearn)
